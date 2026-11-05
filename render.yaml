@@ -1,0 +1,10 @@
+# Optional: a permanent public address (no need to keep your PC on). Push this folder to GitHub, then in Render choose
+# "New + > Blueprint" and select the repository. The invite link becomes https://<your-app>.onrender.com/?room=CODE
+services:
+  - type: web
+    name: hide-and-seek-3d
+    runtime: node
+    plan: free
+    healthCheckPath: /
+    buildCommand: npm install
+    startCommand: node server.js

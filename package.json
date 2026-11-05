@@ -1,0 +1,9 @@
+{
+  "name": "hide-and-seek-3d",
+  "version": "1.0.0",
+  "description": "Multiplayer 3D hide and seek for team social sessions",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "online": "node online.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}
